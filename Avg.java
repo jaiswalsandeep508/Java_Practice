@@ -6,7 +6,7 @@ public class Avg {
     int a = sc.nextInt();
     int b = sc.nextInt();
     int c = sc.nextInt();
-    int sum = a+b+c;
-    System.out.println(sum);
+    int avg = (a+b+c)/3;
+    System.out.println(avg);
   }
 }
