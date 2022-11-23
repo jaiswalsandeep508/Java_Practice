@@ -1,3 +1,6 @@
+
+ //Print only reverse of number without affected on atual number 
+
 import java.util.*;
 
 public class reverse{
@@ -7,7 +10,7 @@ public class reverse{
     int n = sc.nextInt();
     while(n>0){
       int lastDigit = n%10;
-      System.out.print(lastDigit);
+      System.out.print(lastDigit);                
       n = n/10;
     }
   }
